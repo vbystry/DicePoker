@@ -211,7 +211,7 @@ int main()
         cout << "wyniki po tej rundzie:\n";
         for(int i=0; i<num; i++)
         {
-            cout << "gracz " << i+1 << ":\n" << wyniki[i]-1 << "\n";
+            cout << "gracz " << i+1 << ":\n" << wyniki[i] << "\n";
         }
         cout << "czy jest chęć na rozegranie kolejnej rundy? wprowadź 0 jesli nie\n";
         cin >> rundowa;
